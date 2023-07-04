@@ -18,7 +18,6 @@ class CardDeliveryTest {
     void setup() {open("http://localhost:9999"); }
 
     @Test
-    @DisplayName("Should successful plan meeting")
     void shouldSuccessfulPlanMeeting() {
         DataGenerator.UserInfo validUser = DataGenerator.Registration.generateUser("ru");
         int daysToAddForFirstMeeting = 4;
